@@ -45,6 +45,20 @@ function releasedHandler(event) {
   }
 }
 
+// function clickHandler(event) {
+//   if (isItUsersTurn) {
+//     let fieldIndex = parseInt(event.target.dataset.fieldIndex);
+//     userColors.push(fieldIndex);
+
+//     let lastIndex = userColors.length - 1;
+//     if (colors[lastIndex] !== userColors[lastIndex]) {
+//       alert("YOU FAILED!\nGAME OVER!");
+//     } else if (colors.length === userColors.length) {
+//       nextRound();
+//     }
+//   }
+// }
+
 function nextRound() {
   userColors = [];
   let randomField = createRandomIndex();
