@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.container {
+  width: 500px;
+  height: 550px;
+  background-color: gray;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto 50px;
+}
+
+#startButton {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 2em;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
